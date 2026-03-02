@@ -234,6 +234,7 @@ animation.reveal(".hero-content", {
   origin: "left",
   distance: "100px",
 });
+// ami dekhtesi
 
 animation.reveal(".advantages h2", {
   delay: 200,
