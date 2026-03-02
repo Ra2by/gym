@@ -94,11 +94,12 @@ nav {
   width: 100%;
   /* padding-inline: 50px; */
   color: white;
+  padding-inline: 15px;
 }
 
 .hero-content h1 {
   font-size: 64px;
-  width: 600px;
+  width: 100%;
   line-height: 1.2;
   margin-bottom: 30px;
 }
@@ -162,7 +163,8 @@ nav {
     background-position: calc(60%);
     height: 80vh;
   }
-  .hero-contant h1 {
+
+  .hero-content h1 {
     font-size: 40px;
     width: 100%;
   }
