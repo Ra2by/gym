@@ -20,9 +20,9 @@ document.querySelectorAll(".nav-link a").forEach((link) => {
 // smooth scroll.........
 
 document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-  anchor.addEventListener("click", () => {
+  anchor.addEventListener("click", (e) => {
     e.preventDefault();
-    document.querySelector(this.getAttribute("href")).scrollIntoView({
+    document.querySelector(anchor.getAttribute("href")).scrollIntoView({
       behavior: "smooth",
     });
   });
