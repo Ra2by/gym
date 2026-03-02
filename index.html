@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css style sheet -->
+
+    <link rel="stylesheet" href="style.css" />
+    <title>IMRAN GYM-FITNESS CENTER</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav>
+        <!-- logo -->
+        <div class="logo">
+          <a href="/">
+            <img src="./images/logo.png" alt="gym 24 logo" />
+          </a>
+        </div>
+        <!--      mobile menu bar    -->
+
+        <div class="nav-toggle" id="navToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <!-- menu item -->
+
+        <ul class="nav-link" id="navLink">
+          <li>
+            <a href="#advantages">Advantages</a>
+          </li>
+          <li>
+            <a href="#membership">Membership</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#trainer">Trainer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- hero section / main section -->
+    <section class="hero">
+      <div class="hero-contant">
+        <h1>Free Trial Session With A Trainer</h1>
+        <button class="cta-button">Detailed</button>
+      </div>
+    </section>
+
+    <!-- === Advantages Section===-->
+
+    <section class="advantages" id="advantages">
+      <div class="container">
+        <h2>Reasons to join</h2>
+        <div class="advantages-grid">
+          <!-- box 1 -->
+          <div class="advantage-item">
+            <div class="advantage-icon">
+              <img src="./images/icons/icon_line.png" alt="area icon" />
+            </div>
+            <div class="advantage-contant">
+              <h3>15000 sq.m.</h3>
+              <p>
+                A spacious gym for sports - a safe distance between exercise
+                machines
+              </p>
+            </div>
+          </div>
+          <!-- box 2 -->
+          <div class="advantage-item">
+            <div class="advantage-icon">
+              <img src="./images/icons/equipment-icon.png" alt="area icon" />
+            </div>
+            <div class="advantage-contant">
+              <h3>More than 200 equipment</h3>
+              <p>
+                No queues at the simulators. Premium equipment from LifeStyle,
+                Hammer Strength, TechnoGym.
+              </p>
+            </div>
+          </div>
+          <!-- box 3 -->
+          <div class="advantage-item">
+            <div class="advantage-icon">
+              <img src="./images/icons/zones-icon.png" alt="area icon" />
+            </div>
+            <div class="advantage-contant">
+              <h3>4 fitness zones.</h3>
+              <p>
+                From cardio to functional and cycle. Separate area for boxing
+                and mixed martial arts
+              </p>
+            </div>
+          </div>
+          <!-- box 4 -->
+          <div class="advantage-item">
+            <div class="advantage-icon">
+              <img src="./images/icons/clock-icon.png" alt="area icon" />
+            </div>
+            <div class="advantage-contant">
+              <h3>Round-the-clock operation</h3>
+              <p>
+                The gym is open 24 hours a day, also works on all holidays and
+                weekends
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- membership section -->
+    <section class="membership" id="membership">
+      <div class="container">
+        <h2>Gym Membership</h2>
+        <div class="membership-grid" id="membershipPlans">
+          <!-- plane will be inserted by java script -->
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <!-- text -->
+          <div class="about-text">
+            <h2>About us</h2>
+            <p>
+              Gym24 is a leading fitness center located near Grushevka metro
+              station, offering over 1500 sq. m of space dedicated to
+              top-of-the-line workout equipment from leading brands such as
+              Hammer Strength, Life Fitness, and TechnoGym.
+            </p>
+            <p>
+              With affordable membership options, Gym24 is accessible to
+              everyone who wants to reach their fitness goals, whether it's
+              building strength, increasing endurance, or losing weight
+            </p>
+            <p>
+              Certified trainers at Gym24 provide expert guidance and support to
+              develop personalized workout plans tailored to each individual's
+              needs and goals.
+            </p>
+          </div>
+          <!-- slider with indicators -->
+          <div class="about-slider">
+            <!--  slider container -->
+            <div class="slider-container">
+              <div class="slider-wrapper" id="sliderWrapper">
+                <!-- image will be here using js -->
+              </div>
+              <div class="slider-controls">
+                <!-- indicators -->
+                <div class="slider-indicators" id="sliderIndicators">
+                  <!-- will be insterted by js -->
+                  <!-- <span class="indicator"></span> -->
+                </div>
+
+                <!-- prev and next arrows -->
+                <div class="slider-arrows">
+                  <button class="slider-arrow prev" id="prevBtn">
+                    <img src="./images/icons/arrow-left.png" alt="" />
+                  </button>
+                  <div class="slider-arrow next" id="nextBtn">
+                    <img src="./images/icons/arrow-right.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- trainer section -->
+
+    <section class="trainer" id="trainer">
+      <div class="container">
+        <h2>Certified trainers</h2>
+        <div class="trainer-grid" id="trainerGrid">
+          <!-- will insert card by js -->
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-1.jpg" alt="" />
+            <h3>Imran Hossain</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                class="social-icon"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                class="social-icon"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img
+              class="imran"
+              src="./images/trainers/trainer-2 (2).jpg"
+              alt=""
+            />
+            <h3>Imran Hossain</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                class="social-icon"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                class="social-icon"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-3.png" alt="" />
+            <h3>Ivan Gladkikh</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-4.png" alt="" />
+            <h3>Vladislav Kovalenko</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-5.png" alt="" />
+            <h3>Olga Kovalenko</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-6.png" alt="" />
+            <h3>Dmitry Petrov</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-7.png" alt="" />
+            <h3>Anna Volkova</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a class="social-icon" href="#">
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img class="imran" src="./images/trainers/trainer-8.jpg" alt="" />
+            <h3>Imran Hossain</h3>
+            <div class="social-links">
+              <a
+                class="social-icon"
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a class="social-icon" href="https://www.facebook.com/Imran5450/">
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a class="social-icon" href="https://www.facebook.com/Imran5450/">
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- about footer -->
+          <div class="footer-info">
+            <div class="footer-logo">
+              <img src="./images/logo.png" alt="" />
+            </div>
+            <p>
+              Build strength and confidence at our gym with state-of-the-art
+              equipment, personalized training, and a motivating community.
+            </p>
+          </div>
+
+          <!-- address -->
+          <div class="footer-address">
+            <h2>Address</h2>
+            <p>Republic of Belarus</p>
+            <p>Minsk city</p>
+            <p>Dzerzhinsky Avenue 15</p>
+          </div>
+
+          <!-- contact section -->
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <a href="#" class="contact-link">
+              <img src="./images/icons/phone.png" alt="" class="contact-icon" />
+              <span>0130362677</span>
+            </a>
+            <a href="#" class="contact-link">
+              <img src="./images/icons/email.png" alt="" class="contact-icon" />
+              <span>ih545034@gmail.com</span>
+            </a>
+            <div class="social-links amni1">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+                class="social-link amni2"
+              >
+                <img src="./images/icons/instagram.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+                class="social-link amni2"
+              >
+                <img src="./images/icons/twitter.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+                class="social-link amni2"
+              >
+                <img src="./images/icons/facebook.png" alt="" />
+              </a>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/Imran5450/"
+                class="social-link amni2"
+              >
+                <img src="./images/icons/youtube.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
